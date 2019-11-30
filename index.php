@@ -76,10 +76,22 @@
 				?>
 				
 				<h4>Sign into get start... </h4>
-
-				<h3> User Name <input id ="userName" type="email" name="email" placeholder="Email"> </h3>
-				<h3> User Password <input id ="password" type="password" name="password" placeholder="Password"> </h3>
-				<button id ="signBtn" type="submit" name="submit">Sign in</button>
+					<table style="margin:100px; ">
+					<tr >
+					<td style="padding: 20px 120px 20px 0;"><b>Email</b> </td><td ><input id ="" type="email" name="email" placeholder="Email" style="text-align:center;"> </td>
+					</tr> 
+					<tr>
+					<td  style="padding:20px 0;"> <b>User Password</b>	</td><td  ><input id ="" type="password" name="password" placeholder="Password" style="text-align:center;"> </td>
+					</tr>
+					<tr style="text-align:center; ">
+					<td colspan="2"><button id ="" type="submit" name="submit" style="padding:5px 50px;">Sign in</button></td>
+					
+					</tr>
+					
+					</table>
+				
+				
+				
 			</form>
 			
 		</div>
